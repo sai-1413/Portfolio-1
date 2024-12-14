@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jay's Portfolio</title>
+    <link rel="Icon" href="Sai_logo-removebg-preview.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="portfolio">
+        <img src="Naruto_Img-removebg-preview.png" width="70px" height="70px" alt="Image not found">
+        <ul>
+            <li><a onclick="scrollToPercentage(0)">Home</a></li>
+            <li><a onclick="scrollToPercentage(35)">AboutMe</a></li>
+            <li><a onclick="scrollToPercentage(90)">Projects</a></li>
+            <li><a onclick="scrollToPercentage(200)">Contact</a></li>
+        </ul>
+    </nav>
+    <div id="home" class="home">
+        <div class="home-info">
+            <h1> <span>Jayasai</span> Banavath</h1>
+            <h2>I'm a passionate Front-end Developer</h2>
+            <!-- <p>I am a passionate front-end developer dedicated to crafting seamless, user-friendly web experiences. With expertise in C, Java, HTML, CSS. My goal is to bridge the gap between design and functionality, ensuring every project is intuitive and impactful.</p> -->
+	</div>
+    </div>
+
+    <!-- --------About me------------ -->
+     <div id="AboutMe" class="AboutMe">
+        <div class="about">
+            <h1>
+                ABOUT ME : &nbsp;
+            </h1>
+            <img class="image" src="Graphic_design-removebg-preview.png">
+            <p>
+                I'm a hard-working engineering graduate specialised in Electrical and Electronics Engineering. A self-motivated team player with strong communication and an analytical mind with the ability to think clearly and logically. Along with my degree, I learned some of the technical skills and Non-technical skills. I'm expertise in 
+                C, Java, HTML, CSS, SQL, Python, I craft efficient and scalable solutions for complex problems.Beyond design, I enjoy exploring the intersection of art and technology, often dabbling in generative design
+                in my free time. I'm driven by curiosity and constantly seek ways to elevate user interactions. My Hobbies are watching animated series, reading books, listening to the music, and i love travelling.
+            </p>
+        </div>
+     </div> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+     <!-- --------------Projects-------------- -->
+
+     <div id="project" class="project">
+        <div class="Projects">
+            <h1>
+                <img class="port" src="POD_page-0001 (2).jpg">
+                PROJECTS : <br>
+                <h2>ACADEMIC PROJECT</h2>
+            </h1>
+            <p>
+                The simulation studies on power quality enhancement on grid connected multi-level inverter.
+                During this project i worked on the technique which was used to reduce the losses in power. In this Project we are having six types of PWM(Pulse Width Modulation) they are: 
+                1.PD(Phase Disposition)                             2.VFPD
+                3.POD(Phase Opposition and Disposition)             4.VFPOD
+                5.APOD(Alternate Phase and Disposition)             6.VFAPOD. <br>
+                I worked on the technique known as APOD. APOD is nothing but a "ALTERNATE PHASE OPPOSITION and DISPOSITION". All the carrier waveforms have same frequency and same amplitude, but every carrier is phase shifted 180 degrees from its neighbour.
+            </p> <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+            <h3>
+                <img class="polo" src="portfolio_image-removebg-preview.png">
+                MINI PROJECT : 
+            </h3>
+            <p>
+                I Developed a personal portfolio website to showcase My education, skills, and about me. This website is built using HTML, CSS. It is a responsive website.
+                Interactive navigation to highlight professional experience and project. Demonstrated skills in front-end development, resulting in improved online presence and visibility.
+                <br>
+                TECHNOLOGIES USED :- <br>
+                <span>-> HTML[Hyper Text Markup Language] <br>
+                -> CSS[Cascading style sheets]</span>
+            </p>
+        </div>
+     </div>
+
+    <div id="line" class="line">
+        <div class="Line">
+            <p>
+                ._______________________________________________________________________________________________________________________________.<br><br>
+
+            
+               <div id="" class="social-links">
+    <a href="https://www.linkedin.com/in/jayasai-banavath-0903b6278?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+        <div class="image-container">
+            <img src="4-1-removebg-preview.png" alt="Logo" class="pic">
+            <!-- <p class="image-text">Jayasai Banavath</p> -->
+        </div>
+    </a>
+
+    <a href="https://github.com/sai-1413" target="_blank">
+        <div class="image-container">
+            <img src="hub-removebg-preview.png" alt="Logo" class="pic1">
+            <!-- <p class="image-text1">Jayasai</p> -->
+        </div>
+    </a>
+
+    <div id="mail" style="cursor: pointer;" class="image-container" onclick="window.location.href='mailto:jayasaibanavath@gmail.com'">
+        <img src="e-mail-removebg-preview.png" alt="Logo" class="pic2">
+        <!-- <p class="image-text2">jayasaibanavath@gmail.com</p> -->
+    </div>
+</div>
+            </p>
+        </div>
+    </div>
+
+
+    <script>
+        function scrollToPercentage(percentage) {
+       const height = document.documentElement.scrollHeight - window.innerHeight;
+       const scrollPosition = height * (percentage / 100);
+       window.scrollTo({
+           top: scrollPosition,
+           behavior: 'smooth'
+       });
+   }
+   </script>
+
+</body>
+</html>
